@@ -19,3 +19,20 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: bikeshare_stations
+      description: "acl bikeshare_stations"
+      columns:
+          - name: station_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          - name: city_asset_number
+            description: "city of number"
+            tests:
+                - not null
+
+
+# Define variables here
+vars:
+    status: 'closed'
