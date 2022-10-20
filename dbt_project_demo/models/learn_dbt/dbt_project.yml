@@ -1,0 +1,7 @@
+name: dbt_project
+version: 2
+
+
+# Define variables here
+vars:
+    status: closed
