@@ -27,3 +27,12 @@ models:
             tests:
                 - unique
                 - not_null
+          - name: city_asset_number
+            description: "city of number"
+            tests:
+                - not null
+
+
+# Define variables here
+vars:
+    status: 'closed'
