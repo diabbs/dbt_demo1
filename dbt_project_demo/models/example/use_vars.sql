@@ -8,3 +8,4 @@
 select *
 from {{ ref('bikeshare_stations') }} bikeshare_stations
 where 1 = 1
+and 2=2
